@@ -1,0 +1,17 @@
+{
+    "name": "Just Dance",
+    "short_name": "Just Dance",
+    "start_url": "/",
+    "lang": "en-US",
+    "theme_color": "#d63384",
+    "display": "standalone",
+    "background_color": "#fff",
+    "orientation": "any",
+    "icons": [
+      {
+        "src": "img/carousel-1.jpg",
+        "sizes": "1920x1920",
+        "type": "image/jpg"
+      }
+    ]
+  }
