@@ -10,7 +10,7 @@ self.addEventListener('install', event => {
 
         './index.html',
 
-        './assets/css/bootstrap.min.css',
+        './css/bootstrap.min.css',
 
         
 
