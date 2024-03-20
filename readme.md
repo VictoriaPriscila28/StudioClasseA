@@ -1,10 +1,10 @@
-# Centro de Danças Harmonia
+# Just Dance
 
-Bem-vindo ao Centro de Danças Harmonia! Somos uma escola de dança comprometida em proporcionar uma experiência excepcional de aprendizado e expressão artística. Com uma ampla variedade de modalidades de dança e professores talentosos, estamos aqui para ajudá-lo a descobrir sua paixão pela dança e alcançar seus objetivos.
+Bem-vindo a escola de dança Just Dance! Somos uma escola de dança comprometida em proporcionar uma experiência excepcional de aprendizado e expressão artística. Com uma ampla variedade de modalidades de dança e professores talentosos, estamos aqui para ajudá-lo a descobrir sua paixão pela dança e alcançar seus objetivos.
 
 ## Sobre Nós
 
-O Centro de Danças Harmonia foi fundado em Recife em 2014 e desde então tem sido um destino confiável para entusiastas da dança de todas as idades e níveis de habilidade. Nossa missão é promover a arte da dança como uma forma de expressão pessoal e oferecer um ambiente acolhedor e inclusivo para todos os nossos alunos.
+O Centro de Danças Harmonia foi fundado em Recife em 2001 e desde então tem sido um destino confiável para entusiastas da dança de todas as idades e níveis de habilidade. Nossa missão é promover a arte da dança como uma forma de expressão pessoal e oferecer um ambiente acolhedor e inclusivo para todos os nossos alunos.
 
 ## Modalidades de Dança
 
@@ -17,15 +17,15 @@ O Centro de Danças Harmonia foi fundado em Recife em 2014 e desde então tem si
 
 ## Como Rodar a Aplicação
 
-1. **Clone o Repositório:** Faça o clone do repositório do Centro de Danças Harmonia para sua máquina local.
+1. **Clone o Repositório:** Faça o clone do repositório  para sua máquina local.
 git clone https://github.com/VictoriaPriscila28/StudioClasseA.git
 
 2. **Acesse o Diretório:** Navegue até o diretório do projeto.
-cd centro-de-dancas-harmonia
+cd just dance
 
 3. **Abra o Arquivo HTML:** Abra o arquivo `index.html` em seu navegador web preferido.
 
-4. **Explore as Modalidades de Dança:** Navegue pelo site para conhecer mais sobre as diferentes modalidades de dança oferecidas pelo Centro de Danças Harmonia.
+4. **Explore as Modalidades de Dança:** Navegue pelo site  ou baixe o pwa para conhecer mais sobre as diferentes modalidades de dança oferecidas. 
 
 5. **Entre em Contato:** Se desejar mais informações ou agendar uma aula experimental, entre em contato conosco através do formulário de contato em nosso site.
 
