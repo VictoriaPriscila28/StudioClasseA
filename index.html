@@ -30,7 +30,30 @@
         <link href="css/style.css" rel="stylesheet">
 
        <!-- manifest -->
+       
        <link rel="manifest" href="manifest.json">
+       <meta name="mobile-web-app-capable" content="yes">
+       <meta name="apple-mobile-web-app-capable" content="yes">
+       <meta name="application-name" content="Just Dance">
+       <meta name="apple-mobile-web-app-title" content="Just Dance">
+       <meta name="theme-color" content="#d63384">
+       <meta name="msapplication-navbutton-color" content="#d63384">
+       <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+       <meta name="msapplication-starturl" content="/">
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+       <link rel="icon" type="image/png" sizes="72x72" href="icon_android1.png">
+       <link rel="apple-touch-icon" type="image/png" sizes="72x72" href="icon_android1.png">
+       <link rel="icon" type="image/png" sizes="48x48" href="icon_android2.png">
+       <link rel="apple-touch-icon" type="image/png" sizes="48x48" href="icon_android2.png">
+       <link rel="icon" type="image/png" sizes="96x96" href="icon_android3.png">
+       <link rel="apple-touch-icon" type="image/png" sizes="96x96" href="icon_android3.png">
+       <link rel="icon" type="image/png" sizes="144x144" href="icon_android4.png">
+       <link rel="apple-touch-icon" type="image/png" sizes="144x144" href="icon_android4.png">
+       <link rel="icon" type="image/png" sizes="192x192" href="icon_android5.png">
+       <link rel="apple-touch-icon" type="image/png" sizes="192x192" href="icon_android5.png">
+
+
+       
 
        
 
@@ -1282,6 +1305,27 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <!-- Script Service Worker -->
+
+    <script>
+        let newWorker;
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('/service-worker.js').then(reg => {
+            reg.addEventListener('updatefound', () => {
+              newWorker = reg.installing;
+            });
+          });
+          let refreshing;
+          navigator.serviceWorker.addEventListener('controllerchange', function () {
+            if (refreshing) return;
+            window.location.reload();
+            refreshing = true;
+          });
+        }
+      </script>
+
+
     </body>
 
 </html>
