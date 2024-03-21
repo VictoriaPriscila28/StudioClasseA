@@ -1,29 +1,31 @@
 {
   "name": "Just Dance",
   "short_name": "Just Dance",
-  "start_url": "https://victoriapriscila28.github.io/StudioClasseA/",
-  "lang": "en-US",
+  "start_url": "index.html",
+  "lang": "pt",
   "theme_color": "#d63384",
   "background_color": "#fff",
   "display": "standalone",
   "orientation": "portrait",
+  "scope": "/",
   "icons": [
-    
     {
-      "src": "icon_android4.png",
+      "src": "img/android/android4.png",
       "sizes": "144x144",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
-      "src": "icon_android5.png",
+      "src": "img/android/icon_android5.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
-      "src": "512.png",
+      "src": "img/ios/512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     }
-
   ]
 }
