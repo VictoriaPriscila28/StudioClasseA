@@ -9,12 +9,7 @@
   "orientation": "portrait",
   "scope": "/",
   "icons": [
-    {
-      "src": "img/android/android4.png",
-      "sizes": "144x144",
-      "type": "image/png",
-      "purpose": "any"
-    },
+    
     {
       "src": "img/android/icon_android5.png",
       "sizes": "192x192",
@@ -25,7 +20,7 @@
       "src": "img/ios/512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any"
+      "purpose": "maskable"
     }
   ]
 }
