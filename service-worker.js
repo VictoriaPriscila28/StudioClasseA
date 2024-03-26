@@ -1,4 +1,4 @@
-/*var cacheName = 'JustDance-v1.0'; // Corrigido o nome do cache
+var cacheName = 'JustDance-v1.0'; // Corrigido o nome do cache
 
 self.addEventListener('install', event => {
   self.skipWaiting();
@@ -38,4 +38,4 @@ self.addEventListener('fetch', function (event) {
         return fetch(event.request); // Busca na internet se não estiver no cache
       })
   );
-});*/
+});
