@@ -41,22 +41,9 @@
        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
        <meta name="msapplication-starturl" content="/">
        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      
-       
        <link rel="icon" type="image/png" sizes="144x144" href="img/android/icon_android4.png">
        <link rel="apple-touch-icon" type="image/png" sizes="192x192" href="img/android/icon_android5.png">
        <link rel="apple-touch-icon" type="image/png" sizes="512x512" href="img/ios/512.png">
-
-
-       
-
-       
-
-       
-
-      
-
-
 
     </head>
 
@@ -70,10 +57,6 @@
         </div>
         <!-- Spinner End -->
 
-
-        
-
-
         <!-- Navbar & Hero Start -->
         <div class="container-fluid position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
@@ -81,9 +64,11 @@
                     <h1 class="text-primary m-0"><i class="fas fa-biohazard me-3"></i>JustDance</h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="fa fa-bars"></span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-label="Toggle navigation">
+                    <span class="fa fa-bars" aria-hidden="true"></span>
+                    <span class="visually-hidden">Toggle navigation</span>
                 </button>
+                
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
                         <a href="index.html" class="nav-item nav-link active">Home</a>
@@ -121,8 +106,15 @@
                         <p class="fs-5 wow fadeInUp" data-wow-delay="0.5s"> Nós somos uma escola de dança que atua há mais de 22 anos 
                         </p>
                         <div class="pt-2">
-                            <a class="btn btn-primary rounded-pill text-white py-3 px-5 m-2 wow fadeInLeft" data-wow-delay="0.1s" href="#">Junte-se</a>
-                            <a class="btn btn-secondary rounded-pill text-white py-3 px-5 m-2 wow fadeInRight" data-wow-delay="0.3s" href="#">Leia mais</a>
+
+                            <a href="#" class="btn btn-primary rounded-pill text-white py-3 px-5 m-2 wow fadeInLeft" data-wow-delay="0.1s" aria-label="Junte-se">
+                                Junte-se
+                            </a>
+
+                            <a href="#" class="btn btn-secondary rounded-pill text-white py-3 px-5 m-2 wow fadeInRight" data-wow-delay="0.3s" aria-label="Leia mais">
+                                Leia mais
+                            </a>
+                            
                         </div>
                     </div>
                 </div>
