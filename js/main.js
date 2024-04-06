@@ -271,7 +271,7 @@
         title: "Bem vindo ao site!",
         opt: {
             body: "Espero que você aproveite para nos visitar em breve!",
-            icon: "img/android/icon", // Ícone opcional
+            icon: "img/android/playstore.png", // Ícone opcional
         },
         link: "/detalhes-da-venda" // Link opcional
     });
