@@ -275,17 +275,50 @@
         },
         link: "/detalhes-da-venda" // Link opcional
     });
-    
+    // aulas
+    // Função para exibir os horários das modalidades
+    function mostrarHorarios() {
+        // JSON com os horários das modalidades
+        const horarios = {
+            "ballet": {
+                "dia": "Segunda-feira",
+                "horario": "18:00 - 19:30"
+            },
+            "jazz": {
+                "dia": "Quarta-feira",
+                "horario": "19:00 - 20:30"
+            },
+            "contemporanea": {
+                "dia": "Terça-feira",
+                "horario": "20:00 - 21:30"
+            },
+            "ginastica": {
+                "dia": "Quinta-feira",
+                "horario": "18:30 - 20:00"
+            },
+            "streetdance": {
+                "dia": "Sábado",
+                "horario": "10:00 - 11:30"
+            }
+        };
 
+        // Elemento onde os horários serão exibidos
+        const divHorarios = document.getElementById('horarios');
 
-    
+        // Limpa o conteúdo atual
+        divHorarios.innerHTML = '';
 
-    
-    
-   
+        // Itera sobre as modalidades e exibe os horários
+        for (let modalidade in horarios) {
+            const horario = horarios[modalidade];
+            const paragrafo = document.createElement('p');
+            paragrafo.textContent = `${modalidade}: ${horario.dia}, ${horario.horario}`;
+            divHorarios.appendChild(paragrafo);
+        }
+    }
 
-
-   
+    // Event listener para o botão
+    document.getElementById('mostrarHorarios').addEventListener('click', mostrarHorarios);
 
 })(jQuery);
 
